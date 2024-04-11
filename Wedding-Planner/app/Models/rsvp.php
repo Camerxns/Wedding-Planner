@@ -10,9 +10,10 @@ class rsvp extends Model
     use HasFactory;
 
     protected $fillable = [
-        'FirstName',
-        'LastName',
+        'Name',
         'PlusOne',
-        'UserID'
+        'PlusOneName',
+        'PotLuckAnswer',
+        'PotLuckResponse'
     ];
 }
